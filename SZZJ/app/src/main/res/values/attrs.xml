@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="position">
+        <enum name="left_top" value="0" />
+        <enum name="left_bottom" value="1" />
+        <enum name="right_top" value="2" />
+        <enum name="right_bottom" value="3" />
+    </attr>
+    <!--<attr name="radius" format="dimension" />-->
+    <declare-styleable name="MarqueeViewStyle">
+        <attr name="mvInterval" format="integer|reference"/>
+        <attr name="mvAnimDuration" format="integer|reference"/>
+        <attr name="mvTextSize" format="dimension|reference"/>
+        <attr name="mvTextColor" format="color|reference"/>
+        <attr name="mvGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+    <!--公共标题-->
+    <declare-styleable name="SupperTitle">
+        <attr name="leftDrawable" format="reference"/>
+        <attr name="rightDrawable" format="reference"/>
+        <attr name="text" format="string"/>
+        <attr name="leftAction" format="string"/>
+        <attr name="rightAction" format="string"/>
+        <attr name="leftText" format="string"/>
+        <attr name="rightText" format="string"/>
+        <attr name="bottomText" format="string"/>
+        <attr name="barHeight" format="dimension"/>
+        <attr name="searchTitle" format="boolean"/>
+        <attr name="barBackground" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleFlowIndicator">
+        <attr name="activeColor" format="color" />
+        <attr name="inactiveColor" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="centered" format="boolean" />
+        <attr name="fadeOut" format="integer" />
+        <attr name="inactiveType">
+            <flag name="stroke" value="0" />
+            <flag name="fill" value="1" />
+        </attr>
+        <attr name="activeType">
+            <flag name="stroke" value="0" />
+            <flag name="fill" value="1" />
+        </attr>
+        <attr name="circleSeparation" format="dimension" />
+        <attr name="activeRadius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ViewFlow">
+        <attr name="sidebuffer" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ExpandableMenuOverlay">
+        <!-- DIALOG OVERLAY -->
+        <attr name="adjustViewSize" format="boolean"/>
+        <attr name="dimAmount" format="float"/>
+
+        <!-- MENU BUTTON SIZE -->
+        <attr name="mainButtonSize" format="float"/>
+        <attr name="otherButtonSize" format="float"/>
+        <attr name="distanceY" format="float"/>
+        <attr name="distanceX" format="float"/>
+        <attr name="bottomPad" format="float"/>
+
+        <!-- MENU BUTTON RESOURCES -->
+        <attr name="closeButtonSrc" format="integer"/>
+        <attr name="leftButtonSrc" format="integer"/>
+        <attr name="leftButtonText" format="integer"/>
+        <attr name="midButtonSrc" format="integer"/>
+        <attr name="midButtonText" format="integer"/>
+        <attr name="rightButtonSrc" format="integer"/>
+        <attr name="rightButtonText" format="integer"/>
+
+    </declare-styleable>
+    <declare-styleable name="BannerLayoutStyle">
+        <attr name="selectedIndicatorColor" format="color|reference" />
+        <attr name="unSelectedIndicatorColor" format="color|reference" />
+        <attr name="indicatorShape" format="enum">
+            <enum name="rect" value="0" />
+            <enum name="oval" value="1" />
+        </attr>
+
+        <attr name="selectedIndicatorHeight" format="dimension|reference" />
+        <attr name="selectedIndicatorWidth" format="dimension|reference" />
+
+        <attr name="unSelectedIndicatorHeight" format="dimension|reference" />
+        <attr name="unSelectedIndicatorWidth" format="dimension|reference" />
+
+        <attr name="indicatorPosition" format="enum">
+            <enum name="centerBottom" value="0" />
+            <enum name="rightBottom" value="1" />
+            <enum name="leftBottom" value="2" />
+            <enum name="centerTop" value="3" />
+            <enum name="rightTop" value="4" />
+            <enum name="leftTop" value="5" />
+        </attr>
+
+        <attr name="indicatorSpace" format="dimension|reference" />
+        <attr name="indicatorMargin" format="dimension|reference" />
+        <attr name="autoPlayDuration" format="integer|reference" />
+        <attr name="scrollDuration" format="integer|reference" />
+        <attr name="isAutoPlay" format="boolean"/>
+        <attr name="defaultImage" format="integer|reference"/>
+    </declare-styleable>
+    <!-- FunGameHeader -->
+    <declare-styleable name="FunGameHeader">
+        <attr name="game_type" format="enum">
+            <enum name="hit_block" value="0" />
+            <enum name="battle_city" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- FunGameView -->
+    <declare-styleable name="FunGame">
+        <attr name="left_model_color" format="color" />
+        <attr name="middle_model_color" format="color" />
+        <attr name="right_model_color" format="color" />
+    </declare-styleable>
+
+    <!-- HitBlockView -->
+    <declare-styleable name="HitBlock">
+        <attr name="block_horizontal_num" format="integer" />
+        <attr name="ball_speed" format="integer">
+            <enum name="low" value="3" />
+            <enum name="medium" value="6" />
+            <enum name="fast" value="9" />
+        </attr>
+    </declare-styleable>
+</resources>

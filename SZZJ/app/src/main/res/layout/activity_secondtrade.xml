@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <com.example.czero.szzj.View.SupperTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suppertitle">
+
+    </com.example.czero.szzj.View.SupperTitle>
+
+    <com.example.czero.szzj.View.FunGameRefreshView.FunGameRefreshView
+        android:id="@+id/refresh_fun_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:game_type="battle_city">
+    <ListView
+        android:id="@+id/lv_second_trade_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:smoothScrollbar="true"
+        android:divider="@null" >
+    </ListView>
+</com.example.czero.szzj.View.FunGameRefreshView.FunGameRefreshView>
+</LinearLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="0cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="1cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="2cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="3cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt"
+
+        />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="4cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="5cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+    />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="6cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="7cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="8cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="9cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="10cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="11cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="12cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="13cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="14cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+
+    <com.example.czero.szzj.SZZJView.ChiziCM
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        android:background="#6495ED"
+        android:text="15cm"
+        android:textColor="#ffffffff"
+
+        android:textSize="10pt" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="10mm"
+        android:background="#ff8833" />
+</LinearLayout>
+

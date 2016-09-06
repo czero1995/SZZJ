@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+<com.example.czero.szzj.View.SupperTitle
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/suppertitle"></com.example.czero.szzj.View.SupperTitle>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_app"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5dp"
+        android:lineSpacingMultiplier="1.4"
+        android:text="    汕职之家,是由汕头职业技术学院  'C橙团队'  开发的一款汕职社区移动生活类手机App,
+     汕职之家集多功能于一身,可以轻松让你获得校园一手咨询,是汕职生活的得力助手\n
+    C橙团队一直致力于汕职之家的开发工作,希望能够得到更多校友的支持与建议,我们将不断的更新和完善.
+    同时也乐意和相关的校友合作,欢迎联系C橙团队\n"/>
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="合作对象: 纵梦汕职(zmguangqing) "/>
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/dianhualianxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/characters"
+        android:gravity="left|center"
+        android:drawableRight="@drawable/ic_arrow"
+        android:text="电话联系"/>
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/zaixiankefu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left|center"
+            android:textColor="@color/characters"
+            android:drawableRight="@drawable/ic_arrow"
+            android:text="在线客服"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

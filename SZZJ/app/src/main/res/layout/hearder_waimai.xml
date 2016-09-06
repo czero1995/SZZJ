@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="18dp">
+      <ImageView
+          android:id="@+id/titleback"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="12dp"
+          android:layout_alignParentLeft="true"
+          android:layout_width="wrap_content"
+          android:layout_height="25dp"
+          android:layout_centerHorizontal="true"
+          android:src="@drawable/ic_back"/>
+   <TextView
+       android:layout_centerInParent="true"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textColor="@color/characters"
+       android:layout_gravity="center_vertical"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:text="懒人无罪 | 外卖万岁"/>
+      </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+   <EditText
+
+       android:id="@+id/et_waimaisearch"
+       android:layout_width="wrap_content"
+       android:layout_height="35dp"
+       android:layout_weight="1"
+       android:textSize="14sp"
+       android:gravity="center"
+       android:singleLine="true"
+       android:imeOptions="actionSearch"
+       android:hint="搜索商家"/>
+      <ImageButton
+          android:id="@+id/btn_waimaisearch"
+          android:layout_width="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_height="wrap_content"
+          android:background="@drawable/ic_waimai"/>
+   </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_bg">#fff0f0f0</color>
+
+    <color name="accent">#eeff41</color>
+    <!-- 主色：橙色 -->
+    <color name="mainorange">#ff8833</color>
+    <!-- 辅助色：浅蓝色 -->
+    <color name="mainblue">#6495ED</color>
+    <!-- 玫红色 -->
+    <color name="rosered">#FE394B</color>
+    <!-- 橙黄色 -->
+    <color name="orangeyellow">#ffcc00</color>
+    <!-- 背景灰色 -->
+    <color name="lightgray">#f4f4f4</color>
+    <!-- 灰色 -->
+    <color name="normalgray">#AAAAAA</color>
+    <!-- 深灰 -->
+    <color name="darkgray">#585858</color>
+    <!-- 文字搭配 -->
+    <color name="charactersmix">#999999</color>
+    <!-- 文字内容 -->
+    <color name="characters">#666666</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 浅绿色 -->
+    <color name="green">#DFFCAC</color>
+    <color name="white_little_alpha">#f0ffffff</color>
+    <color name="white_mid_alpha">#96ffffff</color>
+<color name="bantouming">#1e000000</color>
+    <color name="primary_color">#03a9f4</color>
+    <color name="sky_background">#228FC1</color>
+
+    <!-- 悬浮按钮 -->
+    <color name="fab_menu_colorNormal">@color/colorPrimary</color>
+    <color name="fab_menu_colorPressed">@color/colorPrimaryDark</color>
+    <color name="fab_menu_colorRipple">#B3E5FC</color>
+    <color name="white_big_alpha">#4bffffff</color>
+
+
+</resources>
