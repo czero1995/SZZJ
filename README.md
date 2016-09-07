@@ -9,5 +9,4 @@
 
 扫码下载：             ![](http://119.29.121.145/2.png)
 
-
-![image](http://119.29.121.145/szzj.gif )   
+![image](https://github.com/czero1995/SZZJ/blob/master/SZZJ/app/szzj.gif)
