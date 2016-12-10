@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="30dp"
+    card_view:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F5F5F5"
+            >
+
+            <TextView
+                android:id="@+id/device"
+                android:paddingRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textSize="11sp"
+                android:text="" />
+
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:textColor="@color/darkgray"
+                android:id="@+id/username"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="汕职小C" />
+
+            <TextView
+                android:id="@+id/tv_amusetalk_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/normalgray"
+                android:layout_marginRight="10dp"
+                android:text="汕职院!"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/tv_trade_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="15dp"
+                android:text="2014-9-15"
+                android:textColor="#808080"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lovenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/normalgray"
+                android:layout_toLeftOf="@+id/btnlove"
+                android:text="1" />
+
+            <ImageView
+                android:id="@+id/btnlove"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:paddingRight="12dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_love" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

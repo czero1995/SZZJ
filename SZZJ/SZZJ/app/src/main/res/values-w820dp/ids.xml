@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--用于TabStrip约束-->
+    <item type="id" name="tag_position"></item>
+    <item type="id" name="id_tab_txt">888</item>
+    <!--用于GalleryFinal-->
+    <item name="adapter_item_tag_key" type="id" />
+    <!--用于通用约束-->
+
+
+
+</resources>

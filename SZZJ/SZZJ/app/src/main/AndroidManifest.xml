@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.czero.szzj" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--推送所需的权限-->
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name"
+        android:name=".ZhiHu.ZhihuDailyApplication"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cn.bmob.v3.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity android:name=".SZZJView.WELCOMESZZJ"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ZhiHu.NewsDetailActivity"></activity>
+        <activity android:name=".SZZJView.LoginActivity" />
+        <activity android:name=".SZZJView.RegisterActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".Tab.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".SZZJView.MineInfoActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.MineInfoEditActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.FeedbackActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.ContactActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.LostFoundActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.LostFoundAddActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.XiuGaiMiMaActivity" />
+
+        <activity android:name=".SZZJView.WaimaiItemActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.WaimaiActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.SearchphoneActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.SecondTradeActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.LoveWallActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+
+  <activity android:name=".SZZJView.ForgetActivity"
+
+      android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.TourActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.UnionActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name=".SZZJView.Chizi"
+            android:theme="@android:style/Theme.Translucent"/>
+
+        <activity android:name=".SZZJView.LoveWallURL"
+            android:theme="@android:style/Theme.Translucent"/>
+
+        <activity android:name=".SZZJView.CourseActivity"
+            android:theme="@android:style/Theme.Translucent"
+
+        android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity android:name=".SZZJView.UnionItemActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+<activity android:name=".SZZJView.VideoActivity" />
+
+        <activity android:name=".SZZJView.TourItemActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+
+        <activity android:name=".SZZJView.ActivityNews"
+            android:theme="@android:style/Theme.Translucent"/>
+
+        <activity android:name=".SZZJView.ActivityNewItemActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+
+
+        <activity android:name=".SZZJView.UnionBaoming"/>
+        <activity android:name=".SZZJView.DongTaiActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+<activity android:name=".SZZJView.NewPeopleSZYL"/>
+        <activity android:name=".SmartC.SmarcActivity"
+            android:theme="@android:style/Theme.Translucent"
+        android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:noHistory="true"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent1105432676" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="behind"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- 友盟相关 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="	57b051da67e58ee585001d86"/>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Channel ID"/>
+
+        <service
+            android:label="PushService"
+            android:name="cn.bmob.push.lib.service.PushService"
+            android:process="cn.bmob.push"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="cn.bmob.push.lib.service.PushService"/>
+            </intent-filter>
+        </service>
+
+        <receiver android:name="cn.bmob.push.PushReceiver" >
+            <intent-filter>
+                <!-- 系统启动完成后会调用 -->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <!-- 解锁完成后会调用 -->
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <!-- 监听网络连通性 -->
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 第四部中创建的消息接收器，在这里进行注册 -->
+        <receiver android:name=".SZZJPush.PushReceiver">
+            <intent-filter >
+                <action android:name="cn.bmob.push.action.MESSAGE"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

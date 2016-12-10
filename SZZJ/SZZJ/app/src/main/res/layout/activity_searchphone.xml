@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <com.example.czero.szzj.View.SupperTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suppertitle">
+
+    </com.example.czero.szzj.View.SupperTitle>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp">
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/etsearchlongphone"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="输入要查询的短号"/>
+    <Button
+        android:background="@drawable/buttonstyle"
+        android:id="@+id/searchlongphone"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="短号查询长号"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/buttonstyle"
+            android:id="@+id/searchshortphone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="查询本机短号"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/buttonstyle"
+            android:id="@+id/searchyue"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="查询本机余额"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/buttonstyle"
+            android:id="@+id/searchliuliang"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="查询本机流量"
+           />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

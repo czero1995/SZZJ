@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="节"
+                        android:textColor="#ff8833"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="1-2"
+                        android:textColor="#ff8833"
+                        android:textSize="20sp" />
+
+                    <View
+                        android:layout_width="23dp"
+
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:background="#ffffff" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="3-4"
+                        android:textColor="#ff8833"
+                        android:textSize="20sp" />
+
+                    <View
+                        android:layout_width="23dp"
+                        android:layout_height="2dp"
+                        android:background="#ffffff" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="5-6.7"
+                        android:textColor="#ff8833"
+                        android:textSize="20sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:text="周一"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/Mondayone"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#EE9572"
+                        android:gravity="center"
+                        android:text="网络技术基础"
+                        android:textSize="15dp" />
+
+
+                    <TextView
+                        android:id="@+id/Mondaythree"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#BCD2EE"
+                        android:gravity="center"
+                        android:text="第三节"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/Mondayfive"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#836FFF"
+                        android:gravity="center"
+                        android:text="周五节"
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:text="周二"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/Tuesdayone"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#EE3B3B"
+                        android:gravity="center"
+                        android:text="第一节"
+                        android:textSize="15dp" />
+
+
+
+                    <TextView
+                        android:id="@+id/Tuesdaythree"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#CAFF70"
+                        android:gravity="center"
+                        android:text="第三节"
+                        android:textSize="15dp" />
+
+
+
+                    <TextView
+                        android:id="@+id/Tuesdayfive"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#B4EEB4"
+                        android:gravity="center"
+                        android:text="周五节"
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:text="周三"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/Wednesdayone"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#7FFF00"
+                        android:gravity="center"
+                        android:text="第一节"
+                        android:textSize="15dp" />
+
+
+
+                    <TextView
+                        android:id="@+id/Wednesdaythree"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#436EEE"
+                        android:gravity="center"
+                        android:text="第三节"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/Wednesdayfive"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#DA70D6"
+                        android:gravity="center"
+                        android:text="周五节"
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:text="周四"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/Thursdayone"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#CD5B45"
+                        android:gravity="center"
+                        android:text="第一节"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/Thursdaythree"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#EE9572"
+                        android:gravity="center"
+                        android:text="第三节"
+                        android:textSize="15dp" />
+
+
+                    <TextView
+                        android:id="@+id/Thursdayfive"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#CDC9A5"
+                        android:gravity="center"
+                        android:text="周五节"
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:text="周五"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/Firdayone"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#EE6AA7"
+                        android:gravity="center"
+                        android:text="第一节"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/Firdaythree"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#CDCDB4"
+                        android:gravity="center"
+                        android:text="第三节"
+                        android:textSize="15dp" />
+
+
+                    <TextView
+                        android:id="@+id/Firdayfive"
+                        android:layout_width="45dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="#CDB5CD"
+                        android:gravity="center"
+                        android:text="周五节"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
