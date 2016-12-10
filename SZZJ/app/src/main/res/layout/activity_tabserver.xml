@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 app:autoPlayDuration="5000"
-                app:defaultImage="@drawable/ic_app"
+                app:defaultImage="@drawable/background"
                 app:indicatorMargin="10dp"
                 app:indicatorPosition="rightBottom"
                 app:indicatorShape="rect"

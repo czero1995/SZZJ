@@ -121,7 +121,7 @@ public class WaimaiActivity extends BaseActivity implements AdapterView.OnItemCl
         BmobQuery<Shop> query = new BmobQuery<Shop>();
         query.order("-createdAt");
         query.setCachePolicy(BmobQuery.CachePolicy.NETWORK_ELSE_CACHE);
-        query.addWhereContains("name", s);
+        query.addWhereMatches("name", s);
         query.findObjects(this, new FindListener<Shop>() {
             @Override
             public void onSuccess(List<Shop> list) {

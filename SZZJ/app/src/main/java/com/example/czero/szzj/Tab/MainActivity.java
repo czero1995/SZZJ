@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity{
         adapter = new MyViewPagerAdapter(getSupportFragmentManager(), this);
         adapter.addFragment(new ServerActivity().newInstance("Page1"), "校园服务");
         adapter.addFragment(new ShanZhiQuanActivity().newInstance("Page2"), "汕职圈");
+        adapter.addFragment(new ZhiHuActivity().newInstance("Page4"), "知乎日报");
         adapter.addFragment(new MeActivity().newInstance("Page3"), "我");
 
         viewPager.setAdapter(adapter);
